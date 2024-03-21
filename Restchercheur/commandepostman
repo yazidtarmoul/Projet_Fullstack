@@ -1,0 +1,91 @@
+get.php:
+ <!-- 
+    URL: 
+
+    http://localhost/projetfullstack/Restchercheur/get.php?table=chercheur
+    http://localhost/projetfullstack/Restchercheur/get.php?table=equipe
+    http://localhost/projetfullstack/Restchercheur/get.php?table=projet
+    http://localhost/projetfullstack/Restchercheur/get.php?table=aff
+    
+-->
+
+
+delete.php:A vous de choisir MR.
+
+
+post.php:
+<!-- 
+   URL : http://localhost/projetfullstack/Restchercheur/post.php
+
+     table chercheur : 
+    {
+        "table": "chercheur",
+        "NC": "15",
+        "NOM": "Alexandre",
+        "PRENOM": "PUISIEUX",
+        "NE": "2"
+    }
+
+    table equipe : 
+    {
+        "table": "equipe",
+        "NE": "5",
+        "NOM": "DEVOPS"
+    }
+
+    table projet : 
+    {
+        "table": "projet",
+        "NP": "p14",
+        "NOM": "CEO",
+        "BUDGET": 2500,
+        "NE": "5"
+    }
+
+    table aff : 
+    {
+        "table": "aff",
+        "NP": "p10",
+        "NC": "15",
+        "ANNEE": 2024 
+    }
+-->
+put.php:
+<!-- 
+
+    URL : http://localhost/projetfullstack/Restchercheur/put.php
+
+    table chercheur : 
+    {
+        "table": "chercheur",
+        "NC": "3",
+        "NOM": "zen",
+        "PRENOM": "Damien",
+        "NE": "2"
+    }
+
+    table equipe : 
+    {
+        "table": "equipe",
+        "NE": "3",
+        "NOM": "Cybersécurité"
+    }
+
+    table projet : 
+    {
+        "table": "projet",
+        "NP": "p06",
+        "NOM": "ZAZA",
+        "BUDGET": 2000,
+        "NE": "2"
+    }
+
+    table aff : 
+    {
+        "table": "aff",
+        "NP": "p01",
+        "NC": "3",
+        "ANNEE": 2024 
+    }
+    
+-->

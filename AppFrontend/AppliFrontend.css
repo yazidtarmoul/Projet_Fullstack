@@ -1,0 +1,80 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: #fefefe;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    padding: 10px 0;
+    text-align: center;
+}
+.lbl{
+    text-align: center;
+    font-size: 20px;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    max-width: 400px;
+}
+
+button, select {
+    padding: 12px 24px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+}
+
+button:hover, select:hover {
+    background-color: #a9b8c9;
+}
+
+select {
+    width: 200%;
+}
+
+select option {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+ul li {
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul li:hover {
+    background-color: #0056b3;
+}

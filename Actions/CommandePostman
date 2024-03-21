@@ -1,0 +1,8 @@
+GET POSTMAN:
+<!--  
+
+    http://localhost/projetfullstack/Actions/Action.php?action=budgets
+    http://localhost/projetfullstack/Actions/Action.php?action=budget_Between
+    http://localhost/projetfullstack/Actions/Action.php?action=Nom_equipes_chercheurs
+    http://localhost/projetfullstack/Actions/Action.php?action=equipes_projets
+-->
